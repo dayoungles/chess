@@ -1,18 +1,15 @@
-
 public class Pawn {
-	String color="white";
-	
+	String color;
+
 	String askColor() {
-		// TODO Auto-generated method stub
-		
 		return color;
 	}
-	Pawn(){
-		
-	}
-	Pawn(String color) {
-		// TODO Auto-generated constructor stub
-	}
-	
 
+	Pawn() {
+		this.color = "white";
+	}
+
+	Pawn(String color) {
+		this.color = color;
+	}
 }
