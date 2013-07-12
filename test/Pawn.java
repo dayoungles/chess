@@ -7,5 +7,12 @@ public class Pawn {
 		
 		return color;
 	}
+	Pawn(){
+		
+	}
+	Pawn(String color) {
+		// TODO Auto-generated constructor stub
+	}
+	
 
 }
